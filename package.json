@@ -1,8 +1,8 @@
 {
-  "name": "node_server05",
+  "name": "node_server06",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "Node.js web-server with Express",
+  "main": "server_wo_express.js",
   "scripts": {
     "start": "node server",
     "dev": "nodemon server"
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "date-fns": "^2.30.0",
+    "express": "^4.18.2",
     "uuid": "^9.0.1",
     "uuidv4": "^6.2.13"
   },
