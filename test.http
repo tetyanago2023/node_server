@@ -1,0 +1,32 @@
+POST http://localhost:3500/employees
+Content-Type: application/json
+
+{"firstname":"Tetyana", "lastname": "Go"}
+
+###
+GET http://localhost:3500/employees/3
+Content-Type: application/json
+
+###
+GET http://localhost:3500/employees/1
+Content-Type: application/json
+
+###
+GET http://localhost:3500/employees
+Content-Type: application/json
+
+###
+PUT http://localhost:3500/employees
+Content-Type: application/json
+
+{"id":2, "firstname": "David"}
+
+###
+GET http://localhost:3500/employees/2
+Content-Type: application/json
+
+###
+DELETE http://localhost:3500/employees
+Content-Type: application/json
+
+{"id": 3}
