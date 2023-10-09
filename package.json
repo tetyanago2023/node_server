@@ -1,5 +1,5 @@
 {
-  "name": "node_server06",
+  "name": "node_server08",
   "version": "1.0.0",
   "description": "Node.js web-server with Express",
   "main": "server_wo_express.js",
