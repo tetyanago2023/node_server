@@ -30,3 +30,15 @@ DELETE http://localhost:3500/employees
 Content-Type: application/json
 
 {"id": 3}
+
+###
+POST http://localhost:3500/register
+Content-Type: application/json
+
+{"user": "tetyana2", "pwd":  "q1234567!Q"}
+
+###
+POST http://localhost:3500/auth
+Content-Type: application/json
+
+{"user": "tetyana2", "pwd":  "q1234567!Q"}
