@@ -1,5 +1,5 @@
 {
-  "name": "node_server_mvc_registration_auth",
+  "name": "node_server_jwt_auth_refreshtoken_logout",
   "version": "1.0.0",
   "description": "Node.js web-server with Express",
   "main": "server_wo_express.js",
@@ -11,9 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
     "uuid": "^9.0.1",
     "uuidv4": "^6.2.13"
   },

@@ -42,3 +42,11 @@ POST http://localhost:3500/auth
 Content-Type: application/json
 
 {"user": "tetyana2", "pwd":  "q1234567!Q"}
+
+###
+GET http://localhost:3500/refresh
+Content-Type: application/json
+
+###
+GET http://localhost:3500/logout
+Content-Type: application/json
