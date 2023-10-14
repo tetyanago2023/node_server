@@ -35,7 +35,7 @@ Content-Type: application/json
 POST http://localhost:3500/register
 Content-Type: application/json
 
-{"user": "walt2", "pwd":  "q1234567!Q"}
+{"user": "walt1", "pwd":  "q1234567!Q"}
 
 ###
 POST http://localhost:3500/auth
@@ -49,4 +49,8 @@ Content-Type: application/json
 
 ###
 GET http://localhost:3500/logout
+Content-Type: application/json
+
+###
+GET http://localhost:3500/root
 Content-Type: application/json
