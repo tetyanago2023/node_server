@@ -1,5 +1,5 @@
 {
-  "name": "node_server_jwt_auth_refreshtoken_logout",
+  "name": "node_server_roles",
   "version": "1.0.0",
   "description": "Node.js web-server with Express",
   "main": "server_wo_express.js",

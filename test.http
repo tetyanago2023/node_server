@@ -35,13 +35,13 @@ Content-Type: application/json
 POST http://localhost:3500/register
 Content-Type: application/json
 
-{"user": "tetyana2", "pwd":  "q1234567!Q"}
+{"user": "walt2", "pwd":  "q1234567!Q"}
 
 ###
 POST http://localhost:3500/auth
 Content-Type: application/json
 
-{"user": "tetyana2", "pwd":  "q1234567!Q"}
+{"user": "dave1", "pwd":  "q1234567!Q"}
 
 ###
 GET http://localhost:3500/refresh
